@@ -5,7 +5,7 @@ Create a .gitignore file in the git repository if it does not contain one
 #### touch .gitignore
 
 Open up the .gitignore and add the following line to the file
-####**/node_modules
+#### **/node_modules
 
 Remove the node_modules folder from the git repository
 #### git rm -r --cached node_modules
