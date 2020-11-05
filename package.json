@@ -1,0 +1,26 @@
+{
+  "name": "cicdtest",
+  "version": "1.0.0",
+  "description": "Test for ci/cd",
+  "main": "index.js",
+  "scripts": {
+    "main": "node index.js",
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/malk2013/cicdtest.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/malk2013/cicdtest/issues"
+  },
+  "homepage": "https://github.com/malk2013/cicdtest#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mocha": "^8.2.1",
+    "supertest": "^6.0.1"
+  }
+}
